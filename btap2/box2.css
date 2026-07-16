@@ -1,0 +1,59 @@
+.header_text{
+font-family: 'Roboto', sans-serif;
+font-size: 20px;
+text-align: center;
+letter-spacing: 12px;
+}
+.introduce .intro1{
+font-family: 'Roboto', sans-serif;
+font-size: 50px;
+text-align: center;
+font-weight: bold;
+}
+.introduce .intro2{
+font-family: 'Roboto', sans-serif;
+text-align: center;
+font-size: 30px;
+
+}
+.list_menu{
+list-style: none;
+display: flex;
+justify-content: center;
+margin-top: 80px;
+font-size: 20px;
+}
+.sub_menu{
+    padding: 0 50px;
+    font-family: 'Roboto', sans-serif; 
+}
+.sub_menu:hover {
+    font-weight: bold; 
+    color: black;  
+}
+.list_prodcut .item{
+    width: 240px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* bóng nhẹ */
+    padding: 20px;
+}
+.item img{
+    width: 240px;
+    padding-bottom: 90px;
+    object-fit: cover;
+    /* background-color: antiquewhite; */
+}
+.list_prodcut{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    gap: 100px;
+}
+.name_product{
+    font-size: 25px;
+font-weight: bold;
+}
+
+.item:hover{
+    background-color: antiquewhite;
+
+}
